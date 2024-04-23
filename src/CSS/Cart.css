@@ -1,0 +1,168 @@
+
+h1{
+
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+#cartlink{
+    color: black;
+    text-decoration: underline;
+}
+#cartlink:active{
+    color: blueviolet;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+.header li{
+    list-style: none;
+    font-size: large;
+}
+
+#cart{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+#btns{
+    padding: 5px 30px 0px;
+    border: none;
+    outline: none;
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s all;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+ 
+}
+#btns:active{
+    background-color: lightgreen;
+}
+.main_div{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+
+}
+
+.detail{
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.detail  img{
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: auto;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+/* cart css.. */
+#heading{
+    display: flex;
+
+}
+#clearall{
+    position: relative;
+    text-align: justify;
+    left: 1100px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-size: larger;
+    margin-top: 6px;
+}
+
+#deletebtn{
+   
+    border: none;
+    outline: none;
+    /* background-color: rgb(211, 73, 73); */
+    color: white ;
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s all ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 25px;
+  
+    
+}
+#deletebtn:hover{
+    background-color: rgb(217, 115, 115);
+}
+.detailcart{
+    border-top: 1px solid black;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    
+
+}
+.detailcart img{
+    width: 137px;
+    height: 137px;
+    margin: 15px;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+
+}
+.quantitydiv{
+    border: 1px solid black;
+    width: 90px;
+    height: 30px;
+    margin-top: 24px;
+    font-size: 21px;
+
+}
+
+button#quantitybtn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 24px;
+}
+p{
+    margin-left: 42px;
+    margin-top: 24px;
+}
+#subtotal{
+    text-align: end;
+    margin-right: 100px;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+  
+}
